@@ -185,7 +185,8 @@ Abre `vorticity.png` para ver el campo de vorticidad al tiempo final.
     ```
     ## Clona este repositorio:
    ```bash
-   git clone https://github.com/magdielzz/An-lisis-trastornos-sue-o.git
+  git clone https://github.com/magdielzz/Navier-Stokes-Parallel-Solver.git
+   ```
    
     ## Referencias
 
