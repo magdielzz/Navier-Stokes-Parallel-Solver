@@ -2,11 +2,11 @@
 
 ## Resumen del Proyecto
 
-Este proyecto implementa un solucionado para las ecuaciones de Navier-Stokes en 2D en forma de vorticidad usando un método pseudo-espectral utilizando un enfoque de computación paralela. La simulación evoluciona un campo de vorticidad en un dominio periódico, inicializado con un vórtice Gaussiano, e incluye una pequeña viscosidad y un término de forzado sinusoidal. El solvedor paraleliza los cálculos entre múltiples procesos usando MPI, con FFTs distribuidas mediante la librería `mpi4py`. El campo final de vorticidad se visualiza como un gráfico de contorno.
+Este proyecto implementa un solucionado para las ecuaciones de Navier-Stokes en 2D en forma de vorticidad usando un método pseudo-espectral utilizando un enfoque de computación paralela. La simulación evoluciona un campo de vorticidad en un dominio periódico, inicializado con un vórtice Gaussiano, e incluye una pequeña viscosidad y un término de forzado sinusoidal. El solucionador paraleliza los cálculos entre múltiples procesos usando MPI, con FFTs distribuidas mediante la librería `mpi4py`. El campo final de vorticidad se visualiza como un gráfico de contorno.
 
 ### Cómo Funciona
 
-* **Física**: Se resuelven las ecuaciones de Navier-Stokes en forma de vorticidad:
+* **Física de fluidos**: Se resuelven las ecuaciones de Navier-Stokes en forma de vorticidad:
   $\\frac{\\partial \\omega}{\\partial t} + \\mathbf{u} \\cdot \\nabla \\omega = \\nu \\nabla^2 \\omega + f$ donde $\omega$ es la vorticidad, $\mathbf{u} = (u, v)$ es el campo de velocidad, $\nu$ es la viscosidad, y $f$ es un término de forzado.
 * **Método Numérico**: Usa un método pseudo-espectral:
 
