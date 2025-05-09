@@ -183,6 +183,13 @@ Abre `vorticity.png` para ver el campo de vorticidad al tiempo final.
     self.w = (np.exp(-50 * ((X - 0.3)**2 + (Y - 0.3)**2)) +
               np.exp(-50 * ((X - 0.7)**2 + (Y - 0.7)**2)))
     ```
+    ## Clona este repositorio:
+   ```bash
+   git clone https://github.com/magdielzz/An-lisis-trastornos-sue-o.git
+   
+    ## Referencias
+
+- Li, Z., Kovachki, N., Azizzadenesheli, K., Liu, B., Bhattacharya, K., Stuart, A., & Anandkumar, A. (2021). Fourier Neural Operator for Parametric Partial Differential Equations. ICLR 2021.
 
 ---
 
