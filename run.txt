@@ -1,3 +1,3 @@
 #!/bin/bash
-# Run the simulation with 2 processes, using flags suitable for WSL
-mpirun --oversubscribe -np 2 --mca btl_tcp_if_include eth0 python3 main.py
+# Run the simulation with 2 processes
+mpirun -np 2 python3 main.py
