@@ -76,6 +76,7 @@ Instala los paquetes del sistema y dependencias de Python necesarias.
 ```bash
 sudo apt update
 sudo apt install -y mpich libmpich-dev
+sudo apt install python3-pip
 ```
 
 #### Paquetes de Python
